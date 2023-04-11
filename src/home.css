@@ -1,0 +1,93 @@
+.body{
+    background-image: url(https://images.pexels.com/photos/1888403/pexels-photo-1888403.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffff;
+}
+.head{
+    color: burlywood;
+    margin-left: 10px;
+    
+}
+.container{
+    margin-left: 10px;
+    max-width: fit-content;
+}
+.expertise{ 
+    display: inline-block;
+    padding: 10px;
+}
+.expertiseContent{
+    margin: 8px;
+    width: fit-content;
+    border-radius: 15px;
+    height: fit-content;
+    border: 2.5px solid #020202;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.expertiseContent :hover{
+    color: brown;
+}
+.Aboutme{
+    text-align: center;
+    max-width: fit-content;
+    
+}
+.whychooseme{
+    text-align: center;
+    display:inline-block;
+    position: relative;
+    page-break-inside: auto;
+    z-index: +2;
+}
+.whychoosemetext{
+    background-color: burlywood;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.whychoosemetext :hover{
+    background-color: aliceblue;
+    z-index: -1;
+    max-zoom: 2;
+}
+.rounded{
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 50px;
+    max-height: fit-content;
+}
+.rounded :hover{
+    border: 2.0px solid rgb(15, 15, 15);
+    padding: 5px;
+    border-radius: 50%;
+}
+.readmoreContent {
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px;
+    float: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(206, 123, 22);
+    margin: 30px;
+}
+
+.readmoreContent:hover{
+    color: #000000;
+    background-color: #ffff;
+    border: none;
+}
+.readmore{
+    margin-bottom: 80px;
+    margin-top: auto;
+}
